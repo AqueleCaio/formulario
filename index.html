@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exec02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+       <nav>
+           <ul>
+               <li><a href="https://unifei.edu.br" target="_blank" rel="external">UNIFEI</a></li>
+               <li><a href="https://proex.unifei.edu.br" target="_blank" rel="external">PROEX</a></li>
+               <li><a href="https://unifei.edu.br/evento/integra-unifei-2023-campus-itajuba/" target="_blank" rel="external">INTEGRA</a></li>
+           </ul>
+       </nav>
+   </header>
+   <main>
+        <h1>Formulário de Apresentação de Projetos de Extensão</h1>
+        <p>Nesse formulario sua equipe devera preencher os dados do seu projeto de extensão para que a PROEX possa distribuir os stands da forma mais adequada</p>
+
+        <form action="#">
+            <fieldset>
+                <legend>Identificação do Projeto</legend>
+
+                <label for="inome_projeto">Nome do Projeto</label>
+                <input type="text" name="nome_projeto" id="inome_projeto">
+
+                <label for="inumero_membros">Quantidade de Integrantes</label>
+                <input type="number" name="numero_membros" id="inumero_membros">
+
+                <label for="ilocal">Instituto de Localização</label>
+                <input type="text" name="local" id="ilocal">
+            </fieldset>
+
+            <fieldset>
+                <legend>Área de Atuação</legend> 
+                <p>Selecione Apenas uma Opção</p> <br>
+
+                <label for="iop1">Desenvolvimento de Jogos</label>
+                <input type="radio" name="op" id="iop1"> <br>
+
+                <label for="iop2">Aplicação Web Mobile</label>
+                <input type="radio" name="op" id="iop2"> <br>
+
+                <label for="iop3">Competição de Robôs</label>
+                <input type="radio" name="op" id="iop3"> <br>
+
+                <label for="iop4">Contabilidade</label>
+                <input type="radio" name="op" id="iop4"> <br>
+
+                <label for="iop5">Meteorologia</label>
+                <input type="radio" name="op" id="iop5"> <br>
+
+                <label for="iop6">Drones</label>
+                <input type="radio" name="op" id="iop6"> 
+            </fieldset>
+
+            <fieldset>
+                <legend>Fomento</legend>
+
+                <label for="itipo">Tipo </label>
+                <select name="tipo" id="itipo">
+                    <option value="Espaço Vazio">-------</option>
+                    <option value="Júnior">Empresa Júnior</option>
+                    <option value="Senior">Empresa Senior</option>
+                    <option value="Pleno">Empresa Pleno</option>
+                </select>
+            </fieldset>
+            <input type="submit" value="Enviar">
+        </form>
+   </main>
+
+   <footer>
+        Feito com &hearts; por <a href="https://github.com/AqueleCaio" target="_blank" rel="external">Caio HP</a>
+   </footer>
+</body>
+</html>
